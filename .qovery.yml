@@ -1,11 +1,11 @@
 ---
 application:
-  name: "gdrivebot001"
-  project: "gdrivebot"
+  name: "google-drive-telegram-bot"
+  project: "google-drive-telegram"
   organization: "QoveryCommunity"
 routers:
-- name: "main-gdrivebot"
+- name: "main-google-drive-telegram"
   routes:
-  - application_name: "gdrivebot001"
+  - application_name: "google-drive-telegram-bot"
     paths:
     - "/*"
