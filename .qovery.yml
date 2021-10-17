@@ -1,0 +1,11 @@
+---
+application:
+  name: "gdrivebot001"
+  project: "gdrivebot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-gdrivebot"
+  routes:
+  - application_name: "gdrivebot001"
+    paths:
+    - "/*"
